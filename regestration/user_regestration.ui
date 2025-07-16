@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>436</width>
-    <height>715</height>
+    <width>443</width>
+    <height>719</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <rect>
      <x>-10</x>
      <y>0</y>
-     <width>461</width>
+     <width>511</width>
      <height>721</height>
     </rect>
    </property>
@@ -32,8 +32,8 @@
   <widget class="QTextBrowser" name="textBrowser">
    <property name="geometry">
     <rect>
-     <x>-70</x>
-     <y>30</y>
+     <x>-60</x>
+     <y>10</y>
      <width>581</width>
      <height>51</height>
     </rect>
@@ -46,7 +46,8 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Регистрация пациента&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Оставить заявку на запись&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -65,9 +66,9 @@ p, li { white-space: pre-wrap; }
   <widget class="QPushButton" name="push_button_registration_reg">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>560</y>
-     <width>241</width>
+     <x>130</x>
+     <y>650</y>
+     <width>191</width>
      <height>51</height>
     </rect>
    </property>
@@ -77,14 +78,14 @@ p, li { white-space: pre-wrap; }
     </font>
    </property>
    <property name="text">
-    <string>Зарегестрироваться</string>
+    <string>Оставить заявку</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>120</y>
+     <y>80</y>
      <width>171</width>
      <height>21</height>
     </rect>
@@ -105,7 +106,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>150</y>
+     <y>120</y>
      <width>421</width>
      <height>31</height>
     </rect>
@@ -120,7 +121,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>380</y>
+     <y>360</y>
      <width>271</width>
      <height>31</height>
     </rect>
@@ -134,14 +135,14 @@ p, li { white-space: pre-wrap; }
     <string notr="true">color: rgb(255, 255, 255)</string>
    </property>
    <property name="text">
-    <string>Введите дату рождения*:</string>
+    <string>Введите дату рождения:</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="line_edit_phone_reg">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>240</y>
+     <y>220</y>
      <width>421</width>
      <height>31</height>
     </rect>
@@ -156,7 +157,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>200</y>
+     <y>170</y>
      <width>301</width>
      <height>31</height>
     </rect>
@@ -170,14 +171,14 @@ p, li { white-space: pre-wrap; }
     <string notr="true">color: rgb(255, 255, 255)</string>
    </property>
    <property name="text">
-    <string>Введите номер телефона:</string>
+    <string>Введите номер телефона*:</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="line_edit_sex_reg">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>330</y>
+     <y>310</y>
      <width>421</width>
      <height>31</height>
     </rect>
@@ -192,7 +193,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>290</y>
+     <y>270</y>
      <width>301</width>
      <height>31</height>
     </rect>
@@ -206,14 +207,14 @@ p, li { white-space: pre-wrap; }
     <string notr="true">color: rgb(255, 255, 255)</string>
    </property>
    <property name="text">
-    <string>Укажите ваш пол*:</string>
+    <string>Укажите ваш пол:</string>
    </property>
   </widget>
   <widget class="QDateEdit" name="date_edit_bdate_reg">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>420</y>
+     <y>400</y>
      <width>181</width>
      <height>31</height>
     </rect>
@@ -228,7 +229,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>490</y>
+     <y>540</y>
      <width>401</width>
      <height>31</height>
     </rect>
@@ -243,6 +244,60 @@ p, li { white-space: pre-wrap; }
    </property>
    <property name="text">
     <string>* - поле является обязательным для заполнения</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line_edit_sex_reg_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>500</y>
+     <width>421</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>440</y>
+     <width>391</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Укажите желаемую услугу:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="push_button_registration_reg_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>580</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Услуги</string>
    </property>
   </widget>
  </widget>

@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QDialog
-from Service.Ui_service import Ui_Dialog_service
+from Ui_service import Ui_Dialog_service
 
 
 class Dialog_service(QDialog, Ui_Dialog_service):

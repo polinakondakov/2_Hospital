@@ -17,7 +17,7 @@ class DoctorTable(QMainWindow, Ui_MainWindow_doctor):
         self.current_row = None
         self.push_button_doctor_create.clicked.connect(self.open_doctor_create)
         self.tableWidget.cellDoubleClicked.connect(self.open_doctor_update)
-        self.push_button_doctor_delete.clicked.connect(self.open_dialog_delete_doctor)
+        self.push_button_service_delete.clicked.connect(self.open_dialog_delete_doctor)
         self.tableWidget.cellClicked.connect(self.table_widget_cell_clicked)
 
         self.update_table()
@@ -31,6 +31,7 @@ class DoctorTable(QMainWindow, Ui_MainWindow_doctor):
             self.tableWidget.setItem(row_position, 0, QTableWidgetItem(str(doctor.id)))
             self.tableWidget.setItem(row_position, 1, QTableWidgetItem(doctor.full_name))
             self.tableWidget.setItem(row_position, 2, QTableWidgetItem(doctor.specialisation))
+            self.tableWidget.setItem(row_position, 3, QTableWidgetItem(doctor.qualification))
 
     def table_widget_cell_clicked(self, row, column):
         self.current_row = row

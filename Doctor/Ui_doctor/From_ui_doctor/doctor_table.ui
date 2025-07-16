@@ -80,6 +80,11 @@
         <string>Специализация</string>
        </property>
       </column>
+      <column>
+       <property name="text">
+        <string>Квалификация</string>
+       </property>
+      </column>
      </widget>
     </item>
     <item>

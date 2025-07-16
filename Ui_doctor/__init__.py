@@ -1,1 +1,0 @@
-from .ui_doctor_table import Ui_MainWindow_doctor

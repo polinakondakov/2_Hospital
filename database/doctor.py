@@ -10,6 +10,7 @@ class Doctor(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     full_name = Column(String(100), nullable=False)
     specialisation = Column(String(50), nullable=False)
+    qualification = Column(String(50), nullable=True)
 
     # Устанавливаются связи
     #patients = relationship("Patient", back_populates="doctor")

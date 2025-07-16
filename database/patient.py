@@ -9,9 +9,10 @@ class Patient(Base):
     # Определяются столбцы в таблице
     id = Column(Integer, primary_key=True, autoincrement=True)
     full_name = Column(String(100), nullable=False)
-    phone_number = Column(Integer, nullable=False)
+    phone_number = Column(String(100), nullable=False)
     sex = Column(String(10), nullable=False)
     bdate = Column(Date, nullable=True)
+    comments = Column(String(100), nullable=True)
 
     # Устанавливаются связи
     #doctors = relationship("Doctor", back_populates="patient")
